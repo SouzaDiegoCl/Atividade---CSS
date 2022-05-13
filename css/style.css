@@ -1,0 +1,246 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.título{
+    text-align: center;
+    padding-top: 20px;
+}
+.main{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+footer{
+    height: 1650px;
+    background-color: #ffffff;
+}
+.subtitulo{
+    position: relative;
+    width: 100%;
+    top: 50px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#img-1{
+    position: absolute;
+    left: 165px;
+    top: 160px;
+    width: 300px;
+    height: 200px;
+    background-size: 100% 100%;
+    transition: all 0.4s;
+    background-image: url(../imagens/bruce_banner.jpg);
+}
+#img-1:active{
+    position: absolute;
+    transform: scale(1.6) translateY(60px) ;
+    background-image: url(../imagens/hulk.jpg);
+    border-radius: 70%;
+    box-shadow: 10px 10px 10px black;
+}
+
+#img-2{
+    position: absolute;
+    right: 240px;
+    top: 160px;
+    width: 280px;
+    height: 250px;
+    background-size: 100% 100%;
+    transition: all 0.5s;
+    background-image: url(../imagens/3_atores_spider_man.jpg);
+}
+#img-2:hover{
+    position: absolute;
+    transform: scale(0.8) ;
+    background-image: url(../imagens/3_spider_mans.jpg);
+    box-shadow: -10px -10px 10px rgb(0, 0, 0);
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
+
+.subtitulo-2{
+    position: relative;
+    width: 100%;
+    top: 440px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#img-3{
+    position: relative;
+    left:150px;
+    top: 460px;
+    width: 400px;
+    height: 350px;
+    background-size: 100% 100%;
+    transition: all 0.5s;
+    background-image: url(../imagens/batman-actor.png);
+}
+#img-3:hover{
+    position: relative;
+    transform: scale(0.7);
+    background-image: url(../imagens/batman-hero.jpg);
+    box-shadow: 50px 50px 10px rgb(71, 78, 71);
+}
+
+#img-4{
+    position: absolute;
+    left:780px;
+    top: 600px;
+    width: 400px;
+    height: 350px;
+    background-size: 100% 100%;
+    transition: all 0.5s;
+    background-image: url(../imagens/wanda.jpg);
+}
+#img-4:active{
+    position: absolute;
+    transform: rotate(-30deg) translateY(100px);
+    background-image: url(../imagens/wanda-hero.jpg);
+    box-shadow: 20px 0 10px rgb(224, 11, 11), 0 20px 10px rgb(224, 11, 11), -20px 0px 10px rgb(224, 11, 11), 0 -20px 10px rgb(224, 11, 11);
+}
+
+.subtitulo-3{
+    position: relative;
+    width: 100%;
+    top: 550px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#img-5{
+    position: relative;
+    left:200px;
+    top: 1100px;
+    width: 300px;
+    height: 200px;
+    opacity: 0.4;
+    background-size: 100% 100%;
+    transition: all 2.1s;
+    background-image: url(../imagens/doctor_strange-1.jpg);
+}
+#img-5:hover{
+    position: relative;
+    transform: scale(1.5) translateY(50px);
+    opacity: 1;
+    background-image: url(../imagens/doctor_strange-2.jpg);
+}
+
+#img-6{
+    position: absolute;
+    left:870px;
+    top: 1100px;
+    width: 300px;
+    height: 250px;
+    background-size: 100% 100%;
+    transition: all 0.5s;
+    background-image: url(../imagens/mulher\ maravilha.jpg);
+}
+#img-6:active{
+    position: absolute;
+    transform: scale(1.3) translateY(40px);
+    background-image: url(../imagens/mulher-maravilha-2.jpg);
+    box-shadow: inset 0 0 0 5px #008cff, 10px 10px 10px #0c4e85;
+}
+
+
+.subtitulo-4{
+    position: relative;
+    width: 100%;
+    top: 1260px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#img-7{
+    position: relative;
+    left:150px;
+    top: 1280px;
+    width: 350px;
+    height: 300px;
+    background-size: 100% 100%;
+    transition: all 0.5s;
+    background-image: url(../imagens/iron_man-1.jpg);
+}
+#img-7:active{
+    position: relative;
+    transform: scale(0.7);
+    background-image: url(../imagens/iron_man-2.jpg);
+    box-shadow: -100px -50px 10px rgb(110, 12, 12);
+}
+#img-8{
+    position: absolute;
+    right: 220px;
+    top: 1560px;
+    width: 200px;
+    height: 180px;
+    opacity:0.7;
+    background-size: 100% 100%;
+    transition: all 1s;
+    background-image: url(../imagens/cap_america.jpg);
+}
+#img-8:hover{
+    position: absolute;
+    transform: scale(1.9) translateY(30px) ;
+    background-image: url(../imagens/cap_america-2.jpg);
+    opacity:1;
+    box-shadow: -10px -10px 10px rgb(0, 0, 0);
+}
+
+.subtitulo-5{
+    position: relative;
+    width: 100%;
+    top: 1360px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#img-9{
+    position: relative;
+    left:200px;
+    top: 1400px;
+    width: 300px;
+    height: 200px;
+    opacity: 0.9;
+    background-size: 100% 100%;
+    transition: all 2s;
+    background-image: url(../imagens/viuva_negra-1.jpg);
+}
+#img-9:hover{
+    position: relative;
+    transform: scale(1.5) translateY(50px) rotate(360deg);
+    opacity: 1;
+    background-image: url(../imagens/viuva_negra-2.jpg);
+    box-shadow: 10px 10px 5px #000000;
+}
+
+#img-10{
+    position: absolute;
+    left:870px;
+    top: 1950px;
+    width: 300px;
+    height: 250px;
+    background-size: 100% 100%;
+    transition: all 1s;
+    background-image: url(../imagens/thor-1.jpg);
+}
+#img-10:active{
+    position: absolute;
+    transform: scale(1.5) translateY(40px);
+    background-image: url(../imagens/thor-2.jpg);
+    box-shadow: 20px 20px 20px #0c4e85;
+}
